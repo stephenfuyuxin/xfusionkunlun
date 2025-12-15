@@ -211,7 +211,7 @@ text-embeddings-router --model-id /usr/local/serving/models/ --port 9999
 单击 “Open-API-Compatible” 下的 “添加模型”，输入 embedding 模型参数，
 - 模型类型：embedding
 - 模型名称：bge-m3
-- 基础url：https://7.6.51.23/serving-gateway/6d57c192b32e4173960820b43e5f49e8/v1/
+- 基础url：https://7.6.51.23/serving-gateway/6d57c192b32e4173960820b43e5f49e8/v1
 
 按照上面 embeddiubng 模型中“在线服务” -> “预测” 中的 POST URL，示例，
 ```shell
@@ -223,7 +223,7 @@ https://7.6.51.23/serving-gateway/6d57c192b32e4173960820b43e5f49e8/v1/embeddings
 单击 “HuggingFace” 下的 “添加模型”，输入 rerank 模型参数，
 - 模型类型：rerank
 - 模型名称：bge-reranker-v2-m3
-- 基础url：https://7.6.51.23/serving-gateway/589a90b7b04146eebe52cfbe4720fee2/
+- 基础url：https://7.6.51.23/serving-gateway/589a90b7b04146eebe52cfbe4720fee2
 
 按照上面 rerank 模型中“在线服务” -> “预测” 中的 POST URL，示例，
 ```shell
